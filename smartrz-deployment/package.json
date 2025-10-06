@@ -1,0 +1,10 @@
+{
+  "name": "smartrz-live-classes",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "vite build",
+    "start": "NODE_ENV=production tsx server/index.ts"
+  }
+}
